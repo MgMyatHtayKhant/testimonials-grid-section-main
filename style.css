@@ -23,6 +23,7 @@
 }
 
 html {
+  font-size: 16px;
   font-family: "Barlow Semi Condensed";
 }
 
@@ -51,7 +52,9 @@ h1 {
 
 .container .testimonial {
   padding: var(--gap-space);
+  z-index: 1;
   border-radius: 0.5rem;
+  box-shadow: 3rem 3rem 2rem 0 var(--grey-200-color);
 }
 
 .testimonial .author {
@@ -99,7 +102,7 @@ h1 {
 }
 
 .has-bg .quote {
-  color: var(--grey-200-color);
+  color: var(--grey-100-color);
 }
 
 /* No Bg Sections */
@@ -116,7 +119,7 @@ h1 {
 }
 
 .no-bg .quote {
-  color: var(--grey-400-color);
+  color: var(--grey-500-color);
 }
 
 .container .testimonial-1 {
