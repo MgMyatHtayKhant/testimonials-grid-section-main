@@ -22,7 +22,7 @@ This is my 7th project and also I built with grid again. I feel like I get used 
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
