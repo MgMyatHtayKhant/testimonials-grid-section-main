@@ -131,13 +131,23 @@ h1 {
   background-color: var(--grey-500-color);
 }
 
-.container .testimonial-3,
+.testimonial-3,
 .testimonial-5 {
   background-color: var(--white-color);
 }
 
 .container .testimonial-4 {
   background-color: var(--dark-blue-color);
+}
+
+.testimonial-1 .image-wrapper {
+  border-radius: 50%;
+  border: 2px solid var(--purple-300);
+}
+
+.testimonial-4 .image-wrapper {
+  border-radius: 50%;
+  border: 2px solid var(--purple-500);
 }
 
 @media only screen and (min-width: 768px) {
