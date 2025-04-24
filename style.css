@@ -4,6 +4,7 @@
   --purple-500: hsl(263, 55%, 52%);
 
   --white-color: hsl(0, 0%, 100%);
+  --less-gray-color: hsl(0, 0%, 98%);
   --grey-100-color: hsl(214, 17%, 92%);
   --grey-200-color: hsl(0, 0%, 81%);
   --grey-400-color: hsl(224, 10%, 45%);
@@ -27,7 +28,7 @@ html {
 
 body {
   margin: 5rem var(--gap-space);
-  background-color: var(--grey-100-color);
+  background-color: var(--less-gray-color);
 }
 
 img {
@@ -35,6 +36,11 @@ img {
   display: block;
   object-fit: cover;
   border-radius: 50%;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 16px;
 }
 
 .container {
