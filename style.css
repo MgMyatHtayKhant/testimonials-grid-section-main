@@ -36,7 +36,6 @@ img {
   width: 100%;
   display: block;
   object-fit: cover;
-  border-radius: 50%;
 }
 
 h1 {
@@ -54,7 +53,7 @@ h1 {
   padding: var(--gap-space);
   z-index: 1;
   border-radius: 0.5rem;
-  box-shadow: 3rem 3rem 2rem 0 var(--grey-200-color);
+  box-shadow: 0 1.5rem 2rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .testimonial .author {
@@ -122,6 +121,8 @@ h1 {
   color: var(--grey-500-color);
 }
 
+/* Testimonials Background Colors */
+
 .container .testimonial-1 {
   position: relative;
   background-color: var(--purple-500);
@@ -141,13 +142,16 @@ h1 {
 }
 
 .testimonial-1 .image-wrapper {
-  border-radius: 50%;
   border: 2px solid var(--purple-300);
 }
 
 .testimonial-4 .image-wrapper {
-  border-radius: 50%;
   border: 2px solid var(--purple-500);
+}
+
+/* Resuable Codes */
+.image--curve {
+  border-radius: 50%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -202,6 +206,6 @@ h1 {
     position: absolute;
     top: 0;
     right: 50px;
-    opacity: 0.7;
+    opacity: 0.5;
   }
 }
